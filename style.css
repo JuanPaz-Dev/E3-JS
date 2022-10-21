@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f8ff;
+}
+.center-flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 20px;
+}
+
+.card-pizza
+{
+    width: 50rem;
+    height: 20rem;
+    background-color: #f0af94;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.fallo{
+    color: red;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.form-pizza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f0af94;
+    width: 18rem;
+    height: 9rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.pizza-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 26rem;
+    height: 20rem;
+    text-align: center;
+}
+
+.img-pizza__center
+{
+    
+    width: 20rem;
+    height: 15rem;
+}
+.img-pizza
+{
+    display: flex;
+    align-items: center;
+    height: 20rem;
+    width: 18rem;
+}
+
+.sabor-pizza{
+    width: 25rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
